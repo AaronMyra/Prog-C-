@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/CLionProjects/PROG2007-C/TicTacToe/Block.h
+
+/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckMove.h
+
+/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckWin.h
+
+/home/student/CLionProjects/PROG2007-C/TicTacToe/CompMove.h
+
+/home/student/CLionProjects/PROG2007-C/TicTacToe/PrintGrid.h
+
+/home/student/CLionProjects/PROG2007-C/TicTacToe/UserMove.h
+
+/home/student/CLionProjects/PROG2007-C/TicTacToe/main.cpp
+iostream
+-
+array
+-
+string
+-
+CheckMove.h
+/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckMove.h
+PrintGrid.h
+/home/student/CLionProjects/PROG2007-C/TicTacToe/PrintGrid.h
+UserMove.h
+/home/student/CLionProjects/PROG2007-C/TicTacToe/UserMove.h
+CheckWin.h
+/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckWin.h
+Block.h
+/home/student/CLionProjects/PROG2007-C/TicTacToe/Block.h
+CompMove.h
+/home/student/CLionProjects/PROG2007-C/TicTacToe/CompMove.h
+
