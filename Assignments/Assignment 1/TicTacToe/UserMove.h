@@ -7,4 +7,4 @@
 
 #endif //TICTACTOE_USERMOVE_H
 
-int userMove(char (*gridPtr)[3][3], char userLetter, char compLetter);
+int userMove(char (*gridPtr)[3][3],char,char);

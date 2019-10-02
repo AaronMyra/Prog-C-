@@ -8,128 +8,124 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug"/>
+				<Option working_dir="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TicTacToe">
-				<Option output="/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/TicTacToe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug"/>
+				<Option output="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/TicTacToe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 TicTacToe"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 TicTacToe"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TicTacToe/fast">
-				<Option output="/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/TicTacToe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug"/>
+				<Option output="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/TicTacToe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 TicTacToe/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 TicTacToe/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug"/>
+				<Option working_dir="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/student/CLionProjects/PROG2007-C/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/Block.cpp">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/Block.cpp">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/Block.h">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/Block.h">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckMove.cpp">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CheckMove.cpp">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckMove.h">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CheckMove.h">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckPossibleWin.cpp">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CheckPossibleWin.cpp">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckPossibleWin.h">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CheckPossibleWin.h">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckWin.cpp">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CheckWin.cpp">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckWin.h">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CheckWin.h">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/CompMove.cpp">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CompMove.cpp">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/CompMove.h">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CompMove.h">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/PrintGrid.cpp">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/PrintGrid.cpp">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/PrintGrid.h">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/PrintGrid.h">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/UserMove.cpp">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/UserMove.cpp">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/UserMove.h">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/UserMove.h">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/main.cpp">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/main.cpp">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="/home/student/CLionProjects/PROG2007-C/TicTacToe/CMakeLists.txt">
+		<Unit filename="E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

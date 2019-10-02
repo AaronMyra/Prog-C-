@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/student/CLionProjects/PROG2007-C/TicTacToe/Block.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/Block.h
 
-/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckMove.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CheckMove.h
 
-/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckWin.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CheckWin.h
 
-/home/student/CLionProjects/PROG2007-C/TicTacToe/CompMove.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CompMove.h
 
-/home/student/CLionProjects/PROG2007-C/TicTacToe/PrintGrid.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/PrintGrid.h
 
-/home/student/CLionProjects/PROG2007-C/TicTacToe/UserMove.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/UserMove.h
 
-/home/student/CLionProjects/PROG2007-C/TicTacToe/main.cpp
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/main.cpp
 iostream
 -
 array
@@ -26,15 +26,15 @@ array
 string
 -
 CheckMove.h
-/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckMove.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CheckMove.h
 PrintGrid.h
-/home/student/CLionProjects/PROG2007-C/TicTacToe/PrintGrid.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/PrintGrid.h
 UserMove.h
-/home/student/CLionProjects/PROG2007-C/TicTacToe/UserMove.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/UserMove.h
 CheckWin.h
-/home/student/CLionProjects/PROG2007-C/TicTacToe/CheckWin.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CheckWin.h
 Block.h
-/home/student/CLionProjects/PROG2007-C/TicTacToe/Block.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/Block.h
 CompMove.h
-/home/student/CLionProjects/PROG2007-C/TicTacToe/CompMove.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 1/TicTacToe/CompMove.h
 

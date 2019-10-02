@@ -7,4 +7,4 @@
 
 #endif //TICTACTOE_PRINTGRID_H
 
-void printGrid(char (*gridPtr)[3][3], int p_GridRow, int p_GridCol);
+void printGrid(char (*gridPtr)[3][3],int,int);
