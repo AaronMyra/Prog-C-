@@ -1,7 +1,8 @@
 //
 // Created by student on 21/09/19.
 //
-
+// Get user input until valid entry
+//
 #include "UserMove.h"
 #include <iostream>
 #include <string>
@@ -10,11 +11,12 @@
 
 using namespace std;
 
-int userMove(char (*gridPtr)[3][3], char userLetter, char compLetter){
+void userMove(char (*gridPtr)[3][3], char userLetter, char compLetter){
 
     int userInput;
     string errorMsg = "You have entered an invalid square. Please try again";
     string errorMsg2 = "\nThat location is already taken. Please try again.\n";
+    bool valid;
 
     do {
         cout << "Enter the number of the location you would like to go: (eg. 1) ";
@@ -26,11 +28,13 @@ int userMove(char (*gridPtr)[3][3], char userLetter, char compLetter){
             cout << errorMsg;
         }
 
-        if(userMoveCheck(userInput, gridPtr, userLetter, compLetter)){
+        valid = userMoveCheck(userInput, gridPtr, userLetter, compLetter);
+
+        if(!valid){
             cout << errorMsg2;
         }
 
-    }while (!userMoveCheck(userInput, gridPtr, userLetter, compLetter));
+    }while (!valid);
 
 
 }

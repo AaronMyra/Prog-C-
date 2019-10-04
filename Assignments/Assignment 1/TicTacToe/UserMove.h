@@ -4,7 +4,6 @@
 
 #ifndef TICTACTOE_USERMOVE_H
 #define TICTACTOE_USERMOVE_H
-
+void userMove(char (*gridPtr)[3][3],char,char);
 #endif //TICTACTOE_USERMOVE_H
 
-int userMove(char (*gridPtr)[3][3],char,char);

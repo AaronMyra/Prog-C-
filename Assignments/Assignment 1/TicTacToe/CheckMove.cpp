@@ -1,6 +1,8 @@
 //
 // Created by student on 21/09/19.
 //
+// Checks if the the cell referenced is currently occupied
+
 #include <iostream>
 #include "CheckMove.h"
 #include <string>
@@ -22,29 +24,32 @@ bool userMoveCheck(int userInput, char (*gridPtr)[3][3], char userLetter, char c
 
     if (userInput <= 3){
         if ((*gridPtr)[0][(userInput - 1)] == compLetter || (*gridPtr)[0][(userInput - 1)] == userLetter){
-            return true;
+            return false;
         }
         else {
             (*gridPtr)[0][userInput - 1] = userLetter;
-            return false;
+            return true;
         }
 
     } else if (userInput > 3 && userInput <= 6){
         if ( (*gridPtr)[1][(userInput - 4)] == compLetter ||  (*gridPtr)[1][(userInput - 4)] == userLetter){
-            return true;
+            return false;
         }
         else {
             (*gridPtr)[1][userInput - 4] = userLetter;
-            return false;
+            return true;
         }
 
     }else if (userInput > 6){
         if ( (*gridPtr)[2][(userInput - 7)] == compLetter ||  (*gridPtr)[2][(userInput - 7)] == userLetter){
-            return true;
+            return false;
         }
         else {
             (*gridPtr)[2][userInput - 7] = userLetter;
-            return false;
+            return true;
         }
+    }
+    else{
+        return false;
     }
 }

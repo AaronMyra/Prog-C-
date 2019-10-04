@@ -12,60 +12,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8d7eadf-0207-4d3b-ae65-b3954b4641a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myOwnMath.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myOwnMath.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/Block.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/Block.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/Block.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/Block.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/CheckMove.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/CheckMove.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/CheckMove.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/CheckMove.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/CheckPossibleWin.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/CheckPossibleWin.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/CheckWin.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/CheckWin.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/CompMove.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/CompMove.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/PrintGrid.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/PrintGrid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/UserMove.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/UserMove.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/UserMove.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/UserMove.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Block.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Block.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Block.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/CheckMove.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/CheckPossibleWin.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/CheckWin.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/CompMove.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/PrintGrid.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/UserMove.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/TicTacToe.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/TicTacToe.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/CheckMove.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/CheckMove.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/UserMove.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/UserMove.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/TicTacToe.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe/cmake-build-debug/TicTacToe.exe" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myOwnMath.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -106,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myOwnMath.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -142,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-1" />
     <option name="width" value="1918" />
     <option name="height" value="1053" />
@@ -168,6 +132,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Assignments/Assignment 1/TicTacToe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -202,16 +167,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570024590189</updated>
-      <workItem from="1570024591718" duration="2791000" />
+      <workItem from="1570024591718" duration="3915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2791000" />
+    <option name="totallyTimeSpent" value="3915000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24733475" />
@@ -224,7 +188,7 @@
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -263,13 +227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myOwnMath.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myOwnMath.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -277,6 +234,13 @@
           <folding>
             <element signature="e#44#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myOwnMath.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
         </state>
       </provider>
     </entry>

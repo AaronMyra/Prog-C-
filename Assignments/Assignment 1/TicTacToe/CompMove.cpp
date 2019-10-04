@@ -1,6 +1,7 @@
 //
 // Created by student on 21/09/19.
 //
+// Detailed comp move sequence
 
 #include "CompMove.h"
 #include "CheckMove.h"
@@ -9,20 +10,24 @@
 
 void compMove(char (*gridPtr)[3][3], char userLetter, char compLetter, int turn, char *compMovePtr){
 
+    // If center column is not occupied take it
     if (compMoveCheck(gridPtr, 1, 1, userLetter, compLetter)){
         (*gridPtr)[1][1] = compLetter;
         *compMovePtr = '5';
         return;
     }
 
+    // Perform check for possible comp win
     else if (checkPossibleWin(gridPtr, userLetter, compLetter)){
         return;
     }
 
+    // Perform check for possible user win and block
     else if (checkBlock(gridPtr, userLetter, compLetter, compMovePtr)){
         return;
     }
 
+    // Scripted moves
     else {
 
         if ((*gridPtr)[0][0] == userLetter && (*gridPtr)[2][2] == userLetter) {
@@ -52,6 +57,7 @@ void compMove(char (*gridPtr)[3][3], char userLetter, char compLetter, int turn,
             }
         }
 
+        // Random move
         else {
             for (int i = 0; i < 2; ++i) {
 

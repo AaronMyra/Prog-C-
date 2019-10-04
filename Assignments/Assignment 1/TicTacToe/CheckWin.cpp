@@ -1,6 +1,7 @@
 //
 // Created by student on 21/09/19.
 //
+// Checks if either the user or comp has won
 
 #include "CheckWin.h"
 

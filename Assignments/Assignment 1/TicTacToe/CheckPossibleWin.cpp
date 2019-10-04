@@ -1,6 +1,7 @@
 //
 // Created by student on 22/09/19.
 //
+// Iterates through columns and rows for possible comp win
 
 #include "CheckPossibleWin.h"
 #include "CheckMove.h"
@@ -25,6 +26,18 @@ bool checkCol(char userLetter, char (*gridPtr)[3][3],int row, int col, char comp
 
     }
 
+    else if ((*gridPtr)[row][col] == compLetter && (*gridPtr)[row + 2][col] == compLetter){
+
+        if (compMoveCheck(gridPtr, (row + 1), col, userLetter, compLetter)){
+            (*gridPtr)[row + 1][col] = compLetter;
+            return true;
+        }
+
+        else {
+            return false;
+        }
+    }
+
     else {
         return false;
     }
@@ -42,6 +55,18 @@ bool checkRow(char userLetter, char (*gridPtr)[3][3],int row, int col, char comp
 
         else if (compMoveCheck(gridPtr, row, (col + 2), userLetter, compLetter)){
             (*gridPtr)[row][col + 2] = compLetter;
+            return true;
+        }
+
+        else {
+            return false;
+        }
+    }
+
+    else if ((*gridPtr)[row][col] == compLetter && (*gridPtr)[row][col + 2] == compLetter){
+
+        if (compMoveCheck(gridPtr, row, (col + 1), userLetter, compLetter)){
+            (*gridPtr)[row][col + 1] = compLetter;
             return true;
         }
 

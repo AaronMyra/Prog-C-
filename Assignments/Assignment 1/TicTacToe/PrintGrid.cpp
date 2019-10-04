@@ -1,6 +1,7 @@
 //
 // Created by student on 21/09/19.
 //
+// Iterates through 2D array and prints grid
 
 #include "PrintGrid.h"
 #include <iostream>
