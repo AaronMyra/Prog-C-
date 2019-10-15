@@ -26,14 +26,14 @@ void userMove(char (*gridPtr)[3][3], char userLetter, char compLetter){
             cin.clear();
             cin.ignore(1000, '\n');
             cout << errorMsg;
+            valid = false;
         }
-
-        valid = userMoveCheck(userInput, gridPtr, userLetter, compLetter);
-
-        if(!valid){
-            cout << errorMsg2;
+        else {
+            valid = userMoveCheck(userInput, gridPtr, userLetter, compLetter);
+            if(!valid){
+                cout << errorMsg2;
+            }
         }
-
     }while (!valid);
 
 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/CLionProjects/PROG_C++/Assignment_2/RationalNumber.cpp
+RationalNumber.h
+/home/student/CLionProjects/PROG_C++/Assignment_2/RationalNumber.h
+string
+-
+sstream
+-
+regex
+-
+
+/home/student/CLionProjects/PROG_C++/Assignment_2/RationalNumber.h
+string
+-
+

@@ -12,43 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186386ae-fc44-4bb5-ab87-daf6f8b7edd5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Block.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Block.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Block.h" beforeDir="false" afterPath="$PROJECT_DIR$/Block.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckMove.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CheckMove.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckMove.h" beforeDir="false" afterPath="$PROJECT_DIR$/CheckMove.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckPossibleWin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CheckPossibleWin.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckPossibleWin.h" beforeDir="false" afterPath="$PROJECT_DIR$/CheckPossibleWin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckWin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CheckWin.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckWin.h" beforeDir="false" afterPath="$PROJECT_DIR$/CheckWin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompMove.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CompMove.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompMove.h" beforeDir="false" afterPath="$PROJECT_DIR$/CompMove.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrintGrid.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PrintGrid.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrintGrid.h" beforeDir="false" afterPath="$PROJECT_DIR$/PrintGrid.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserMove.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/UserMove.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMove.h" beforeDir="false" afterPath="$PROJECT_DIR$/UserMove.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/Block.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/CheckMove.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/CheckPossibleWin.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/CheckWin.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/CompMove.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/PrintGrid.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/UserMove.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TicTacToe.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TicTacToe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TicTacToe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TicTacToe.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Demos/Operating_Overloading/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Demos/Operating_Overloading/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,11 +31,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="1411">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="e#67#89#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CompMove.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -84,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CheckMove.h" />
         <option value="$PROJECT_DIR$/Block.h" />
         <option value="$PROJECT_DIR$/CheckPossibleWin.h" />
@@ -96,9 +69,10 @@
         <option value="$PROJECT_DIR$/CompMove.cpp" />
         <option value="$PROJECT_DIR$/PrintGrid.cpp" />
         <option value="$PROJECT_DIR$/CheckMove.cpp" />
-        <option value="$PROJECT_DIR$/UserMove.cpp" />
         <option value="$PROJECT_DIR$/CheckPossibleWin.cpp" />
         <option value="$PROJECT_DIR$/Block.cpp" />
+        <option value="$PROJECT_DIR$/UserMove.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -177,7 +151,7 @@
       <workItem from="1570028141443" duration="379000" />
       <workItem from="1570061562169" duration="2066000" />
       <workItem from="1570063673831" duration="1794000" />
-      <workItem from="1570192935755" duration="283000" />
+      <workItem from="1570192935755" duration="1961000" />
     </task>
     <task id="LOCAL-00001" summary="C++ Assignment 1 (needs testing)">
       <created>1569129991678</created>
@@ -193,28 +167,34 @@
       <option name="project" value="LOCAL" />
       <updated>1569130046894</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Assignment 1 Complete">
+      <created>1570193265748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570193265748</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43395000" />
+    <option name="totallyTimeSpent" value="45073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1918" height="1051" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16254036" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09956943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34519956" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34422657" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39590076" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.48366013" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.48366013" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32903227" />
@@ -397,24 +377,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UserMove.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CheckPossibleWin.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-119">
           <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompMove.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -432,10 +398,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UserMove.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompMove.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="1411">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#67#89#0" expanded="true" />
           </folding>

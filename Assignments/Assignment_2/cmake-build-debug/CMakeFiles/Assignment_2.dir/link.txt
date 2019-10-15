@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Assignment_2.dir/main.cpp.o CMakeFiles/Assignment_2.dir/RationalNumber.cpp.o CMakeFiles/Assignment_2.dir/FriendFunctions.cpp.o  -o Assignment_2 
