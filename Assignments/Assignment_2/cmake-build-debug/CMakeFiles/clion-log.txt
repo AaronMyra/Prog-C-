@@ -1,4 +1,4 @@
-/home/student/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4886.39/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/student/CLionProjects/PROG_C++/Assignment_2
+"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\Second Year\PROG 2100 - C++\Source Code\Assignments\Assignment_2"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/student/CLionProjects/PROG_C++/Assignment_2/cmake-build-debug
+-- Build files have been written to: E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/cmake-build-debug

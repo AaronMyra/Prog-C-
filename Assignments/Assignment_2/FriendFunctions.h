@@ -9,11 +9,14 @@
 #include "RationalNumber.h"
 #include <regex>
 
+// Summary
+//
+// Definitions for overloaded input & output methods
 using namespace std;
 
 bool operator>> (istream &input, RationalNumber &num);
 bool validateNumber(string strNum, regex rationalRegex, regex wholeRegex);
-int parseNumber(string strNum, int *num1, int *num2);
+void parseNumber(string strNum, int *num1, int *num2);
 ostream& operator<<(ostream &output, RationalNumber &num);
 
 #endif //ASSIGNMENT_2_FRIENDFUNCTIONS_H

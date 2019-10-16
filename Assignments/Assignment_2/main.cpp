@@ -8,8 +8,6 @@
 
 using namespace std;
 
-int parseNumber(string strNum, int *num1, int *num2);
-
 int main() {
 
     bool again = false, valid = false;
@@ -23,33 +21,72 @@ int main() {
 
     do{
         do {
-            cout << "Enter the first number: ";
-            valid = cin >> rn1;
-            if (!valid){
-                cout << "\nInvalid number entered\n";
+            try {
+                cout << "Enter the first number: ";
+                valid = cin >> rn1;
+                if (!valid || cin.fail()){
+                    cin.clear();
+                    cout << "\nInvalid number entered\n";
+                }
             }
+            catch(exception e){
+                cout << "An error occurred: " << e.what() << endl;
+            }
+
         }while (valid == false);
 
         do {
-            cout << "Enter the second number: ";
-            valid = cin >> rn2;
-            if (!valid){
-                cout << "\nInvalid number entered\n";
+            try {
+                cout << "Enter the second number: ";
+                valid = cin >> rn2;
+                if (!valid || cin.fail()){
+                    cin.clear();
+                    cout << "\nInvalid number entered\n";
+                }
+            }
+            catch (exception e){
+                cout << "An error occurred: " << e.what() << endl;
             }
         }while (valid == false);
         
 
         RationalNumber rn3 = rn1 + rn2;
-        cout << rn3.toString(rn1, rn2) << endl;
+        rn3.normalize();
+        cout << rn1 << " + " << rn2 << " = " << rn3 <<endl;
 
         RationalNumber rn4 = rn1 - rn2;
-        cout << rn4.toString(rn1, rn2) << endl;
+        rn4.normalize();
+        cout << rn1 << " - " << rn2 << " = " << rn4 << endl;
 
         RationalNumber rn5 = rn1 * rn2;
-        cout << rn5.toString(rn1, rn2) << endl;
+        rn5.normalize();
+        cout << rn1 << " * " << rn2 << " = " << rn5 << endl;
 
         RationalNumber rn6 = rn1 / rn2;
-        cout << rn6.toString(rn1, rn2) << endl;
+        rn6.normalize();
+        cout << rn1 << " / " << rn2 << " = " << rn6 << endl;
+
+        if (rn1 == rn2){
+            cout << rn1 << " is equal to " << rn2 << endl;
+        }
+        else{
+            cout << rn1 << " is NOT equal to " << rn2 << endl;
+        }
+
+        if (rn1 < rn2){
+            cout << rn1 << " is less than " << rn2 << endl;
+        }
+        else{
+            cout << rn1 << " is NOT less than " << rn2 << endl;
+        }
+
+        if (rn1 > rn2){
+            cout << rn1 << " is greater than " << rn2 << endl;
+        }
+        else{
+            cout << rn1 << " is NOT greater than " << rn2 << endl;
+        }
+
 
     }while(again);
 

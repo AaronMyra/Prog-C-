@@ -5,21 +5,25 @@
 #ifndef ASSIGNMENT_2_RATIONALNUMBER_H
 #define ASSIGNMENT_2_RATIONALNUMBER_H
 
+#include "MathOperations.h"
 #include <string>
+
+// Summary
+//
+// Class for Rational Numbers (fractions)
 
 using namespace std;
 
-class RationalNumber {
+class RationalNumber : public MathOperations {
 protected:
     int numerator;
     int denominator;
-    char operatorChar;
 
 public:
     RationalNumber(void);
-    RationalNumber(int, int);
-    RationalNumber(int inNumerator, int inDenominator, char operatorChar);
     RationalNumber(int);
+    RationalNumber(int, int);
+    ~RationalNumber();
     void getLowestCommonDenominator(int *leftNum, int *leftDem, int *rightNum, int *rightDem);
     int getNumerator(void);
     int getDenominator(void);
@@ -30,6 +34,9 @@ public:
     RationalNumber operator-(RationalNumber &rightObj);
     RationalNumber operator/(RationalNumber &rightObj);
     RationalNumber operator*(RationalNumber &rightObj);
+    bool operator==(RationalNumber &rightNum);
+    bool operator<(RationalNumber &rightNum);
+    bool operator>(RationalNumber &rightNum);
 
 };
 

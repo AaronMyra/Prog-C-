@@ -9,6 +9,8 @@
 
 using namespace std;
 
+// Overloaded input operator
+
 bool operator>> (istream &input, RationalNumber &num) {
     const regex rationalRegex ("^(-{0,1}([1-9]|([1-9][0-9])+)\\/-{0,1}([1-9]|([1-9][0-9])+))$");
     const regex wholeRegex ("^-{0,1}\\d+$");
@@ -32,11 +34,15 @@ bool operator>> (istream &input, RationalNumber &num) {
     }
 }
 
+// Overloaded output operator
+
 ostream& operator<<(ostream &output, RationalNumber &num)
 {
     output << to_string(num.getNumerator()) + "/" + to_string(num.getDenominator());
     return output;
 }
+
+// Method to validate user input
 
 bool validateNumber(string strNum, regex rationalRegex, regex wholeRegex){
     if (!regex_match(strNum, rationalRegex)){
@@ -52,7 +58,7 @@ bool validateNumber(string strNum, regex rationalRegex, regex wholeRegex){
     }
 }
 
-int parseNumber(string strNum, int *num1, int *num2){
+void parseNumber(string strNum, int *num1, int *num2){
     string output;
     int tempNum;
 
@@ -80,5 +86,9 @@ int parseNumber(string strNum, int *num1, int *num2){
                 *num2 = tempNum;
             }
         }
+    }
+    if (*num1 < 0 && *num2 < 0){
+        *num1 = *num1 * -1;
+        *num2 = *num2 * -1;
     }
 }

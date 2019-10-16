@@ -15,13 +15,6 @@ RationalNumber::RationalNumber(int inNumerator, int inDenominator){
     this->denominator = inDenominator;
 }
 
-//Constructor for 2 numbers + operator
-RationalNumber::RationalNumber(int inNumerator, int inDenominator, char operatorChar){
-    this->operatorChar = operatorChar;
-    this->numerator = inNumerator;
-    this->denominator = inDenominator;
-}
-
 //Constructor for 1 number
 RationalNumber::RationalNumber(int wholeNumber){
     this->numerator = wholeNumber;
@@ -34,6 +27,9 @@ RationalNumber::RationalNumber(){
     this->denominator = 1;
 }
 
+//Destructor
+RationalNumber::~RationalNumber() = default;
+
 void RationalNumber::normalize() {
     if(this->denominator < 0){
        this->denominator = this->denominator * -1;
@@ -43,9 +39,15 @@ void RationalNumber::normalize() {
         this->numerator = (this->numerator / this->denominator);
         this->denominator = (this->denominator / this->denominator);
     }
-    else if (this->denominator == 0 % this->numerator){
-        this->numerator = (this->numerator);
+    else if (this->denominator % this->numerator == 0){
         this->denominator = (this->denominator / this->numerator);
+        this->numerator = (this->numerator / this->numerator);
+    }
+    else if (this->numerator%2==0 && this->denominator%2==0){
+        do{
+            this->numerator = this->numerator/2;
+            this->denominator = this->denominator/2;
+        }while (this->numerator%2==0 && this->denominator%2==0);
     }
 }
 
@@ -114,23 +116,53 @@ RationalNumber RationalNumber:: operator+ (RationalNumber &rightObj)
 {
     int leftNum = this->getNumerator(), leftDem = this->getDenominator(), rightNum = rightObj.getNumerator(), rightDem = rightObj.getDenominator();
     this->getLowestCommonDenominator(&leftNum, &leftDem, &rightNum, &rightDem);
-    return RationalNumber(leftNum + rightNum, leftDem, '+');
+    return RationalNumber(leftNum + rightNum, leftDem);
 }
 
 RationalNumber RationalNumber:: operator- (RationalNumber &rightObj)
 {
     int leftNum = this->getNumerator(), leftDem = this->getDenominator(), rightNum = rightObj.getNumerator(), rightDem = rightObj.getDenominator();
     this->getLowestCommonDenominator(&leftNum, &leftDem, &rightNum, &rightDem);
-    return RationalNumber(leftNum - rightNum, leftDem, '-');
+    return RationalNumber(leftNum - rightNum, leftDem);
 }
 
 RationalNumber RationalNumber:: operator/ (RationalNumber &rightObj)
 {
-    return RationalNumber(this->numerator / rightObj.getNumerator(), this->denominator / rightObj.getDenominator(), '/');
+    return RationalNumber(this->numerator * rightObj.getDenominator(), this->denominator * rightObj.getNumerator());
 }
 
 RationalNumber RationalNumber:: operator* (RationalNumber &rightObj)
 {
-    return RationalNumber(this->numerator * rightObj.getNumerator(), this->denominator * rightObj.getDenominator(), '*');
+    return RationalNumber(this->numerator * rightObj.getNumerator(), this->denominator * rightObj.getDenominator());
 }
+
+bool RationalNumber:: operator== (RationalNumber &rightNum)
+{
+    if ((this->numerator * rightNum.denominator) == (rightNum.numerator * this->denominator)){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+bool RationalNumber:: operator< (RationalNumber &rightNum)
+{
+    if ((this->numerator / this->denominator) < (rightNum.numerator / rightNum.denominator)){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+bool RationalNumber:: operator> (RationalNumber &rightNum)
+{
+    if ((this->numerator / this->denominator) > (rightNum.numerator / rightNum.denominator)){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
 

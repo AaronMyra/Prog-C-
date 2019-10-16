@@ -6,17 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/student/CLionProjects/PROG_C++/Assignment_2/RationalNumber.cpp
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/FriendFunctions.h
+istream
+-
 RationalNumber.h
-/home/student/CLionProjects/PROG_C++/Assignment_2/RationalNumber.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/RationalNumber.h
+regex
+-
+
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/MathOperations.h
+
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/RationalNumber.h
+MathOperations.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/MathOperations.h
 string
+-
+
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/main.cpp
+iostream
+-
+RationalNumber.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/RationalNumber.h
+string
+-
+cstring
 -
 sstream
 -
 regex
 -
-
-/home/student/CLionProjects/PROG_C++/Assignment_2/RationalNumber.h
-string
--
+FriendFunctions.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/FriendFunctions.h
 
