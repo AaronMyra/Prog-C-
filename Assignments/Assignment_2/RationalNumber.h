@@ -23,6 +23,7 @@ public:
     RationalNumber(void);
     RationalNumber(int);
     RationalNumber(int, int);
+    RationalNumber(string);
     ~RationalNumber();
     void getLowestCommonDenominator(int *leftNum, int *leftDem, int *rightNum, int *rightDem);
     int getNumerator(void);

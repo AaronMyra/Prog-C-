@@ -9,6 +9,7 @@ CMakeFiles/Assignment_2.dir/FriendFunctions.cpp.obj: ../RationalNumber.h
 CMakeFiles/Assignment_2.dir/MathOperations.cpp.obj: ../MathOperations.cpp
 CMakeFiles/Assignment_2.dir/MathOperations.cpp.obj: ../MathOperations.h
 
+CMakeFiles/Assignment_2.dir/RationalNumber.cpp.obj: ../FriendFunctions.h
 CMakeFiles/Assignment_2.dir/RationalNumber.cpp.obj: ../MathOperations.h
 CMakeFiles/Assignment_2.dir/RationalNumber.cpp.obj: ../RationalNumber.cpp
 CMakeFiles/Assignment_2.dir/RationalNumber.cpp.obj: ../RationalNumber.h

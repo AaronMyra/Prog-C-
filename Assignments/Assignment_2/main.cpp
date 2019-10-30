@@ -8,11 +8,11 @@
 
 using namespace std;
 
+//Main Driver
 int main() {
 
     bool again = false, valid = false;
     string strNum1, strNum2;
-    int leftNum1 = 0, leftNum2 = 0, rightNum1 = 0, rightNum2 = 0;
     stringstream str;
     RationalNumber rn1, rn2;
 

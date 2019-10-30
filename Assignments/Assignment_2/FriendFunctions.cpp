@@ -7,6 +7,8 @@
 #include <sstream>
 #include <regex>
 
+// Validation, Parsing and overloaded input/output operators
+
 using namespace std;
 
 // Overloaded input operator
@@ -25,6 +27,9 @@ bool operator>> (istream &input, RationalNumber &num) {
             stringstream sstream (strNum);
             sstream >> tempNum;
             num = RationalNumber(tempNum);
+        }
+        else if (strNum == ""){
+            num = RationalNumber();
         }
         else {
             parseNumber(strNum, &num1, &num2);
@@ -45,7 +50,10 @@ ostream& operator<<(ostream &output, RationalNumber &num)
 // Method to validate user input
 
 bool validateNumber(string strNum, regex rationalRegex, regex wholeRegex){
-    if (!regex_match(strNum, rationalRegex)){
+    if (strNum == ""){
+        return true;
+    }
+    else if (!regex_match(strNum, rationalRegex)){
         if(!regex_match(strNum, wholeRegex)){
             return false;
         }

@@ -1,28 +1,38 @@
 //
 // Created by student on 14/10/19.
 //
-
+#include <iostream>
 #include "RationalNumber.h"
+#include "FriendFunctions.h"
 #include <string>
 #include <sstream>
 #include <regex>
+
+//Methods for Rational Number Class
 
 using namespace std;
 
 //Constructor for 2 numbers
 RationalNumber::RationalNumber(int inNumerator, int inDenominator){
+    cout << "\nMultiple args constructor fired (Rational Number)\n" << endl;
     this->numerator = inNumerator;
     this->denominator = inDenominator;
 }
 
 //Constructor for 1 number
 RationalNumber::RationalNumber(int wholeNumber){
+    cout << "\nSingle args constructor fired (Whole Number)\n" << endl;
     this->numerator = wholeNumber;
     this->denominator = 1;
 }
 
+RationalNumber::RationalNumber(string number) {
+    parseNumber(number, &this->numerator, &this->denominator);
+}
+
 //Default
 RationalNumber::RationalNumber(){
+    cout << "\nDefault constructor fired\n" << endl;
     this->numerator = 0;
     this->denominator = 1;
 }
@@ -114,6 +124,7 @@ char RationalNumber::getOperatorChar() { return this->operatorChar; }
 //Operations
 RationalNumber RationalNumber:: operator+ (RationalNumber &rightObj)
 {
+    cout << "\nOverloaded + operator fired\n" << endl;
     int leftNum = this->getNumerator(), leftDem = this->getDenominator(), rightNum = rightObj.getNumerator(), rightDem = rightObj.getDenominator();
     this->getLowestCommonDenominator(&leftNum, &leftDem, &rightNum, &rightDem);
     return RationalNumber(leftNum + rightNum, leftDem);
@@ -121,6 +132,7 @@ RationalNumber RationalNumber:: operator+ (RationalNumber &rightObj)
 
 RationalNumber RationalNumber:: operator- (RationalNumber &rightObj)
 {
+    cout << "\nOverloaded - operator fired\n" << endl;
     int leftNum = this->getNumerator(), leftDem = this->getDenominator(), rightNum = rightObj.getNumerator(), rightDem = rightObj.getDenominator();
     this->getLowestCommonDenominator(&leftNum, &leftDem, &rightNum, &rightDem);
     return RationalNumber(leftNum - rightNum, leftDem);
@@ -128,16 +140,19 @@ RationalNumber RationalNumber:: operator- (RationalNumber &rightObj)
 
 RationalNumber RationalNumber:: operator/ (RationalNumber &rightObj)
 {
+    cout << "\nOverloaded / operator fired\n" << endl;
     return RationalNumber(this->numerator * rightObj.getDenominator(), this->denominator * rightObj.getNumerator());
 }
 
 RationalNumber RationalNumber:: operator* (RationalNumber &rightObj)
 {
+    cout << "\nOverloaded * operator fired\n" << endl;
     return RationalNumber(this->numerator * rightObj.getNumerator(), this->denominator * rightObj.getDenominator());
 }
 
 bool RationalNumber:: operator== (RationalNumber &rightNum)
 {
+    cout << "\nOverloaded == operator fired\n" << endl;
     if ((this->numerator * rightNum.denominator) == (rightNum.numerator * this->denominator)){
         return true;
     }
@@ -147,6 +162,7 @@ bool RationalNumber:: operator== (RationalNumber &rightNum)
 }
 bool RationalNumber:: operator< (RationalNumber &rightNum)
 {
+    cout << "\nOverloaded < operator fired\n" << endl;
     if ((this->numerator / this->denominator) < (rightNum.numerator / rightNum.denominator)){
         return true;
     }
@@ -157,6 +173,7 @@ bool RationalNumber:: operator< (RationalNumber &rightNum)
 
 bool RationalNumber:: operator> (RationalNumber &rightNum)
 {
+    cout << "\nOverloaded > operator fired\n" << endl;
     if ((this->numerator / this->denominator) > (rightNum.numerator / rightNum.denominator)){
         return true;
     }

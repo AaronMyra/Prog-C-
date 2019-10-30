@@ -16,25 +16,23 @@ regex
 
 E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/MathOperations.h
 
-E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/RationalNumber.h
-MathOperations.h
-E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/MathOperations.h
-string
--
-
-E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/main.cpp
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/RationalNumber.cpp
 iostream
 -
 RationalNumber.h
 E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/RationalNumber.h
+FriendFunctions.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/FriendFunctions.h
 string
--
-cstring
 -
 sstream
 -
 regex
 -
-FriendFunctions.h
-E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/FriendFunctions.h
+
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/RationalNumber.h
+MathOperations.h
+E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/MathOperations.h
+string
+-
 

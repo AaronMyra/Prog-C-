@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Second Year/PROG 2100 - C++/Source Code/Demos/Exceptions Demo 2/main.cpp
+iostream
+-
+exception
+-
+
