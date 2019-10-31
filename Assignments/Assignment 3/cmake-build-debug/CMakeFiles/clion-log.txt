@@ -1,4 +1,6 @@
-"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\Second Year\PROG 2100 - C++\Source Code\Assignments\Assignment 3"
--- Configuring done
--- Generating done
--- Build files have been written to: E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment 3/cmake-build-debug
+/home/student/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4886.39/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/student/CLionProjects/Prog-C++/Assignments/Assignment 3"
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.14 or higher is required.  You are running version 3.13.2
+
+
+-- Configuring incomplete, errors occurred!

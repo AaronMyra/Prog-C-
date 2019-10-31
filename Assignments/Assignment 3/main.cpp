@@ -21,7 +21,7 @@ int main() {
             valid = (!regex_match(tempStuName, nameRegex))? true : false;
         }while (!valid);
 
-        Student student1 = Student(tempStuName);
+        Student student1 = Student(input);
         valid = false;
 
         do{

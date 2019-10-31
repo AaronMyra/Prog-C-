@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/FriendFunctions.cpp" "E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/cmake-build-debug/CMakeFiles/Assignment_2.dir/FriendFunctions.cpp.obj"
-  "E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/MathOperations.cpp" "E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/cmake-build-debug/CMakeFiles/Assignment_2.dir/MathOperations.cpp.obj"
-  "E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/RationalNumber.cpp" "E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/cmake-build-debug/CMakeFiles/Assignment_2.dir/RationalNumber.cpp.obj"
-  "E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/main.cpp" "E:/Second Year/PROG 2100 - C++/Source Code/Assignments/Assignment_2/cmake-build-debug/CMakeFiles/Assignment_2.dir/main.cpp.obj"
+  "/home/student/CLionProjects/Prog-C++/Assignments/Assignment_2/FriendFunctions.cpp" "/home/student/CLionProjects/Prog-C++/Assignments/Assignment_2/cmake-build-debug/CMakeFiles/Assignment_2.dir/FriendFunctions.cpp.o"
+  "/home/student/CLionProjects/Prog-C++/Assignments/Assignment_2/MathOperations.cpp" "/home/student/CLionProjects/Prog-C++/Assignments/Assignment_2/cmake-build-debug/CMakeFiles/Assignment_2.dir/MathOperations.cpp.o"
+  "/home/student/CLionProjects/Prog-C++/Assignments/Assignment_2/RationalNumber.cpp" "/home/student/CLionProjects/Prog-C++/Assignments/Assignment_2/cmake-build-debug/CMakeFiles/Assignment_2.dir/RationalNumber.cpp.o"
+  "/home/student/CLionProjects/Prog-C++/Assignments/Assignment_2/main.cpp" "/home/student/CLionProjects/Prog-C++/Assignments/Assignment_2/cmake-build-debug/CMakeFiles/Assignment_2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
