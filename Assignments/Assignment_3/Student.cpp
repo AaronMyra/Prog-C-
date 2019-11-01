@@ -45,7 +45,7 @@ Student::Student(const Student &student){
         this->courseList[i] = student.courseList[i];
     }
 }
- 
+
 void Student::copyCourseData() {
     string *tempArray;
     tempArray = courseList;
