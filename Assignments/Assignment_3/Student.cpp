@@ -2,9 +2,16 @@
 // Created by w0235012 on 10/30/2019.
 //
 
+#include <iostream>
 #include "Student.h"
 
+//Summary
+//
+// Student Methods
+
+
 Student::Student() {
+    cout << "\nDefault constructor Fired\n";
     this->name = "John Doe";
     this->numOfCourses = 0;
     this->courseList = nullptr;
@@ -12,6 +19,7 @@ Student::Student() {
 }
 
 Student::Student(string p_studentName) {
+    cout << "\nSingle Arg constructor Fired\n";
     this->name = p_studentName;
     this->courseList = new string[2];
     this->numOfCourses = 0;
@@ -19,14 +27,20 @@ Student::Student(string p_studentName) {
 }
 
 Student::~Student() {
-    if (this->courseList != nullptr)
+    cout << "\nCustom Destructor Fired\n";
+    if (this->courseList != NULL)
     {
-        delete [] this->courseList;//[] tells that it is dealing with an array
+        delete [] this->courseList;
     }
 }
 
 Student::Student(const Student &student){
+    cout << "\nCopy constructor Fired\n";
     this->courseListSize = student.courseListSize;
+    this->courseList = NULL;
+    delete[] this->courseList;
+    this->numOfCourses = student.numOfCourses;
+    this->courseList = new string[this->courseListSize];
     for (int i = 0; i < this->courseListSize; ++i) {
         this->courseList[i] = student.courseList[i];
     }
@@ -34,15 +48,16 @@ Student::Student(const Student &student){
 
 void Student::copyCourseData() {
     string *tempArray;
-    tempArray = this->courseList;
-    delete[] this->courseList;
-    this->courseList = new string[this->courseListSize * 2];
-    for (int i = 0; i < this->courseListSize ; ++i) {
-        this->courseList[i] = tempArray[i];
+    tempArray = courseList;
+    courseList = NULL;
+    delete[] courseList;
+    courseList = new string[courseListSize * 2];
+    for (int i = 0; i < courseListSize ; ++i) {
+        courseList[i] = tempArray[i];
     }
     this->courseListSize = this->courseListSize * 2;
     tempArray = NULL;
-    delete tempArray;
+    delete[] tempArray;
 }
 
 void Student::receiveData(string courseName) {
@@ -61,7 +76,7 @@ void Student::receiveData(string courseName) {
 
 void Student::resetCourses() {
     this->numOfCourses = 0;
-    for (int i = 0; i < sizeof(this->courseList)/ sizeof(this->courseList[0]) ; ++i) {
+    for (int i = 0; i < sizeof(*this->courseList)/ sizeof(this->courseList[0]) ; ++i) {
         this->courseList[i] = "";
     }
 }
@@ -97,3 +112,7 @@ string Student::toString() {
 }
 
 int Student::getCourseListSize() { return this->courseListSize;}
+
+void Student::setName(string p_name) {
+    this->name = p_name;
+}

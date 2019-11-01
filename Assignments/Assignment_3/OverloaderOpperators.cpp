@@ -7,10 +7,12 @@
 
 using namespace std;
 
+//File containing overloaded operators
+
 ostream& operator<<(ostream &output, Student &student)
 {
     string tempOutput;
-    tempOutput = "Student Name: " + student.getName() + "\n";
+    tempOutput = "\nStudent Name: " + student.getName() + "\n";
     tempOutput += "Number of courses: " + to_string(student.getNumOfCourses()) + "\n";
     tempOutput += "Course List\n";
     tempOutput += "----------------------------\n";

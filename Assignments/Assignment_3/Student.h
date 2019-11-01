@@ -8,6 +8,10 @@
 #include <string.h>
 #include <string>
 
+//Summary
+//
+// Class for Student
+
 using namespace std;
 
 class Student {
@@ -32,6 +36,7 @@ public:
     string getName();
     string * getCourseList();
     string getCourse(int num);
+    void setName(string);
 
 };
 
