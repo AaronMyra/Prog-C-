@@ -20,11 +20,18 @@ public:
     Student();
     Student(string);
     ~Student();
+    Student(const Student &student);
     void receiveData(string);
     void copyCourseData();
     string toString();
     void resetCourses();
+
+    //Getters & Setters
     int getCourseListSize();
+    int getNumOfCourses();
+    string getName();
+    string * getCourseList();
+    string getCourse(int num);
 
 };
 

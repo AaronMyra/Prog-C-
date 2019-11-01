@@ -14,6 +14,7 @@ Student::Student() {
 Student::Student(string p_studentName) {
     this->name = p_studentName;
     this->courseList = new string[2];
+    this->numOfCourses = 0;
     this->courseListSize = 2;
 }
 
@@ -21,6 +22,13 @@ Student::~Student() {
     if (this->courseList != nullptr)
     {
         delete [] this->courseList;//[] tells that it is dealing with an array
+    }
+}
+
+Student::Student(const Student &student){
+    this->courseListSize = student.courseListSize;
+    for (int i = 0; i < this->courseListSize; ++i) {
+        this->courseList[i] = student.courseList[i];
     }
 }
 
@@ -48,7 +56,7 @@ void Student::receiveData(string courseName) {
             break;
         }
     }
-    this->numOfCourses += 1;
+    this->numOfCourses++;
 }
 
 void Student::resetCourses() {
@@ -56,6 +64,22 @@ void Student::resetCourses() {
     for (int i = 0; i < sizeof(this->courseList)/ sizeof(this->courseList[0]) ; ++i) {
         this->courseList[i] = "";
     }
+}
+
+int Student::getNumOfCourses() {
+    return this->numOfCourses;
+}
+
+string Student::getName(){
+    return  this->name;
+}
+
+string * Student::getCourseList() {
+    return this->courseList;
+}
+
+string Student::getCourse(int num) {
+    return this->courseList[num];
 }
 
 string Student::toString() {

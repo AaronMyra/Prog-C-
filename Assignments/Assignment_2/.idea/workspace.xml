@@ -12,23 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd25f7c0-f0a0-4d80-b25a-9fba07724a15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/FriendFunctions.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/MathOperations.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/RationalNumber.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment_2.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_3/OverloaderOpperators.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_3/OverloaderOpperators.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_3/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_3/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_3/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_3/Student.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_3/Student.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_3/Student.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_3/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_3/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FriendFunctions.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="705">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="43" selection-end-line="47" selection-end-column="1" />
               <folding>
                 <element signature="e#42#70#0" expanded="true" />
               </folding>
@@ -143,7 +134,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment 3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -183,6 +174,7 @@
       <workItem from="1571403005664" duration="1754000" />
       <workItem from="1572450266493" duration="615000" />
       <workItem from="1572475014358" duration="16000" />
+      <workItem from="1572576685502" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 2 progress">
       <created>1571243438058</created>
@@ -195,10 +187,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35635000" />
+    <option name="totallyTimeSpent" value="36249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -360,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FriendFunctions.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="705">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="43" selection-end-line="47" selection-end-column="1" />
           <folding>
             <element signature="e#42#70#0" expanded="true" />
           </folding>
