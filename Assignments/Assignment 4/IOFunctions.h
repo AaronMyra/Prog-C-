@@ -9,8 +9,15 @@
 
 using namespace std;
 
+struct Exception
+{
+    const char* err;
+    Exception() : err("An error occurred"){}
+};
+
 bool getFileContents(string filePath, string *contents);
 void outputContents(string filePath, string contents);
-void replaceFileExtention(string *filePath, string newExtention);
+string replaceFileExtention(string filePath, string newExtention);
+string replaceChars(string *fileContents);
 
 #endif //ASSIGNMENT_4_IOFUNCTIONS_H

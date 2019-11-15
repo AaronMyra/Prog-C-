@@ -5,54 +5,96 @@
 #include "IOFunctions.h"
 #include <string>
 #include <fstream>
+#include <iostream>
+#include <exception>
 
 using namespace std;
 
 bool getFileContents(string filePath, string *contents){
 
-    ifstream inStream(filePath);
-    string line = "";
+    try {
+        ifstream inStream(filePath);
+        string line = "";
 
-    if (inStream.fail()){
-        return false;
-    }
-    while (!inStream.eof()){
-        getline(inStream, line);
-        *contents += line;
+        if (inStream.fail()) {
+            return false;
+        }
+        while (!inStream.eof()) {
+            getline(inStream, line);
+            *contents += line;
 
+        }
+        inStream.close();
+    } catch (...){
+        cout << "File IO Exception Occurred" << endl;
     }
-    inStream.close();
     return true;
 }
 
 void outputContents(string filePath, string contents){
-    ofstream outStream(filePath);
-    if (outStream.fail()){
-        return;
+    try {
+        ofstream outStream(filePath);
+        if (outStream.fail()) {
+            throw "File IO exception occurred";
+        }
+        outStream << contents;
+        outStream.close();
+    } catch (Exception e){
+        cout << e.err << endl;
     }
-    outStream << contents;
-    outStream.close();
+    return;
 }
 
-void replaceFileExtention(string *filePath, string newExtention){
-    string tempString = *filePath;
+string replaceFileExtention(string filePath, string newExtention){
     bool fileExt = false;
     newExtention += '\000';
 
-    for (int i = 0; i < tempString.size(); i++) {
-        if (tempString[i] == '.'){
+    for (int i = 0; i < filePath.size(); i++) {
+        if (filePath[i] == '.'){
             fileExt = true;
         }
         if (fileExt){
-            tempString[i] = '\000';
+            filePath[i] = '\000';
         }
     }
 
-    for (int j = 0; j < tempString.size(); ++j) {
-        if(tempString[j + 1] == '\000'){
-            tempString.replace(j, 1, newExtention);
+    for (int j = 0; j < filePath.size(); ++j) {
+        if(filePath[j + 1] == '\000'){
+            filePath.replace(j, 1, newExtention);
             break;
         }
     }
-    *filePath = tempString;
+    return filePath;
+}
+string replaceChars(string *fileContents){
+
+    try {
+        string tempStr = "";
+        int index = 0;
+
+        for (int i = 0; i < fileContents->size(); i++) {
+            switch ((*fileContents)[i]) {
+                case '<':
+                    for (int j = index; j < i; ++j) {
+                        tempStr += (*fileContents)[j];
+                    }
+                    tempStr += "&lt;";
+                    index = i + 1;
+                    break;
+                case '>':
+                    for (int j = index; j < i; ++j) {
+                        tempStr += (*fileContents)[j];
+                    }
+                    tempStr += "&gt;";
+                    index = i + 1;
+                    break;
+                default:
+                    break;
+            }
+        }
+        tempStr = "<PRE>" + tempStr + "</PRE>";
+        return tempStr;
+    } catch (exception exception){
+        cout << exception.what() << endl;
+    }
 }
