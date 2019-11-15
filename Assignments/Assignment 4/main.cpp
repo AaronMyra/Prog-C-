@@ -10,21 +10,25 @@ string getFilePath(regex pathRegex, string message);
 int main() {
 
     string inFilePath, outFilePath;
-    bool valid = false, again = false;
+    bool valid = false, again = false, validFile = false;
     char inputChar;
-    const regex inPathRegex("^([A-Z]\\:\\\\((((([a-z]|[A-Z]| |_|-)))+)\\\\)*)((([a-z]|[A-Z]| )+)\\.cpp)$");
-    const regex outPathRegex("^([A-Z]\\:\\\\((((([a-z]|[A-Z]| |_|-)))+)\\\\)*)((([a-z]|[A-Z]| )+)\\.html)$");
+    const regex inPathRegex("^([A-Z]\\:\\\\((((([a-z]|[A-Z]|[0-9]|[\\ \\~\\`\\!\\@\\#\\$\\%\\^\\&\\(\\)\\{\\}\\[\\]\\;\\'\\,\\.\\_\\-\\+\\=])))+)\\\\)*)((([a-z]|[A-Z]| )+)\\.cpp)$");
+    const regex outPathRegex("^([A-Z]\\:\\\\((((([a-z]|[A-Z]|[0-9]|[\\ \\~\\`\\!\\@\\#\\$\\%\\^\\&\\(\\)\\{\\}\\[\\]\\;\\'\\,\\.\\_\\-\\+\\=])))+)\\\\)*)((([a-z]|[A-Z]| )+)\\.html)$");
 
     do {
         string fileContents = "";
         inFilePath = getFilePath(inPathRegex, "Enter path to input CPP file with extension: ");
 
-        if (!getFileContents(inFilePath, &fileContents)) {
-            cout << "Failed to open file at " + inFilePath << endl;
-            cout << "Try again" << endl;
-        } else {
-            fileContents = replaceChars(&fileContents);
-        }
+        do {
+            if (!getFileContents(inFilePath, &fileContents)) {
+                cout << "Failed to open file at " + inFilePath << endl;
+                cout << "Try again" << endl;
+                validFile = false;
+            } else {
+                fileContents = replaceChars(&fileContents);
+                validFile = true;
+            }
+        } while (!validFile);
 
         do {
             cout << "Would you like to output automatically (y/n): ";
@@ -41,6 +45,7 @@ int main() {
                 outFilePath = replaceFileExtention(inFilePath, ".html");
                 break;
             case 'n':
+                while ((getchar()) != '\n');
                 outFilePath = getFilePath(outPathRegex, "Enter path to output HTML file with extension: ");
                 break;
             default:
@@ -49,8 +54,10 @@ int main() {
         }
 
         outputContents(outFilePath, fileContents);
+        valid = false;
 
         do {
+            while ((getchar()) != '\n');
             cout << "Would you like to enter another file (y/n): ";
             inputChar = tolower(getchar());
             if (inputChar != 'y' && inputChar != 'n') {
@@ -61,8 +68,8 @@ int main() {
         } while (!valid);
 
         again = inputChar == 'y'? true : false;
-
-    } while (!again);
+        while ((getchar()) != '\n');
+    } while (again);
 
     return 0;
 }
