@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Second Year/PROG 2100 - C++/Source Code/Demos/Poly_demo/Bicycle.h
+Vehicle.h
+E:/Second Year/PROG 2100 - C++/Source Code/Demos/Poly_demo/Vehicle.h
+string
+-
+
+E:/Second Year/PROG 2100 - C++/Source Code/Demos/Poly_demo/Boat.h
+Vehicle.h
+E:/Second Year/PROG 2100 - C++/Source Code/Demos/Poly_demo/Vehicle.h
+string
+-
+
+E:/Second Year/PROG 2100 - C++/Source Code/Demos/Poly_demo/Vehicle.h
+string
+-
+
+E:/Second Year/PROG 2100 - C++/Source Code/Demos/Poly_demo/main.cpp
+iostream
+-
+Vehicle.h
+E:/Second Year/PROG 2100 - C++/Source Code/Demos/Poly_demo/Vehicle.h
+Bicycle.h
+E:/Second Year/PROG 2100 - C++/Source Code/Demos/Poly_demo/Bicycle.h
+Boat.h
+E:/Second Year/PROG 2100 - C++/Source Code/Demos/Poly_demo/Boat.h
+

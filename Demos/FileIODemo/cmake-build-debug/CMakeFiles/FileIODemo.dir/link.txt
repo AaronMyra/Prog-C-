@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/FileIODemo.dir/main.cpp.o  -o FileIODemo.exe -Wl,--out-implib,libFileIODemo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

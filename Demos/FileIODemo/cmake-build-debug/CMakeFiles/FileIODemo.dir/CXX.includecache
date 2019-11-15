@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/l/Second Year/PROG 2100 - C++/Source Code/Demos/FileIODemo/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+
