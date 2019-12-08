@@ -17,10 +17,10 @@ int main() {
 
     do {
         string fileContents = "";
-        inFilePath = getFilePath(inPathRegex, "Enter absolute path to input CPP file with extension: ");
+        inFilePath = getFilePath(inPathRegex, "Enter path to input CPP file with extension: ");
 
+        // Gets input file
         do {
-            //Gets input file path
             if (!getFileContents(inFilePath, &fileContents)) {
                 cout << "Failed to open file at " + inFilePath << endl;
                 cout << "Try again" << endl;
@@ -32,7 +32,6 @@ int main() {
         } while (!validFile);
 
         do {
-            //Asks asks user if they would like automatic output (good for testing)
             cout << "Would you like to output automatically (y/n): ";
             inputChar = tolower(getchar());
             if (inputChar != 'y' && inputChar != 'n') {
@@ -44,11 +43,9 @@ int main() {
 
         switch (inputChar) {
             case 'y':
-                //Automatically coverts file to .html
                 outFilePath = replaceFileExtention(inFilePath, ".html");
                 break;
             case 'n':
-                //Clears buffer and get output file location
                 while ((getchar()) != '\n');
                 outFilePath = getFilePath(outPathRegex, "Enter path to output HTML file with extension: ");
                 break;
@@ -57,15 +54,12 @@ int main() {
                 break;
         }
 
-        //Notifies user of file location
         cout << "File generated at: " + outFilePath << endl;
 
         outputContents(outFilePath, fileContents);
         valid = false;
 
         do {
-
-            //Prompts user if they would like to enter another file
             while ((getchar()) != '\n');
             cout << "Would you like to enter another file (y/n): ";
             inputChar = tolower(getchar());
@@ -83,7 +77,6 @@ int main() {
     return 0;
 }
 
-//Function for getting file paths
 string getFilePath(regex pathRegex, string message){
     bool valid = false;
     string filePath = "";

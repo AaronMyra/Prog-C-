@@ -22,13 +22,11 @@ bool getFileContents(string filePath, string *contents){
         while (!inStream.eof()) {
             getline(inStream, line);
             *contents += line;
-            *contents += '\n';
 
         }
         inStream.close();
-        *contents += '\000';
     } catch (...){
-        throw "File IO Exception Occurred";
+        cout << "File IO Exception Occurred" << endl;
     }
     return true;
 }
@@ -45,9 +43,7 @@ void outputContents(string filePath, string contents){
     catch (Exception& e){
         cout << e.err << endl;
     }
-    catch (...){
-        throw "File output Exception Occurred";
-    }
+    return;
 }
 
 string replaceFileExtention(string filePath, string newExtention){
@@ -74,11 +70,10 @@ string replaceFileExtention(string filePath, string newExtention){
 string replaceChars(string *fileContents){
 
     try {
-        string tempStr;
+        string tempStr = "";
         int index = 0;
 
         for (int i = 0; i < fileContents->size(); i++) {
-            char test = (*fileContents)[i];
             switch ((*fileContents)[i]) {
                 case '<':
                     for (int j = index; j < i; ++j) {
@@ -94,18 +89,13 @@ string replaceChars(string *fileContents){
                     tempStr += "&gt;";
                     index = i + 1;
                     break;
-                case'\000':
-                    for (int j = index; j < i; ++j) {
-                        tempStr += (*fileContents)[j];
-                    }
-                    break;
                 default:
                     break;
             }
         }
         tempStr = "<PRE>" + tempStr + "</PRE>";
         return tempStr;
-    } catch (exception& exception){
-        throw exception.what();
+    } catch (exception exception){
+        cout << exception.what() << endl;
     }
 }
